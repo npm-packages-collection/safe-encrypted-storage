@@ -1,7 +1,7 @@
 
-# safe-storage
+# safe-encrypted-storage
 
-`safe-storage` is an easy-to-use, encrypted web storage utility for JavaScript. It supports both `localStorage` and `sessionStorage`, ensuring your data is securely stored by encrypting keys and values. The package utilizes AES-GCM encryption and IndexedDB to keep sensitive data safe and manageable across web sessions.
+`safe-encrypted-storage` is an easy-to-use, encrypted web storage utility for JavaScript. It supports both `localStorage` and `sessionStorage`, ensuring your data is securely stored by encrypting keys and values. The package utilizes AES-GCM encryption and IndexedDB to keep sensitive data safe and manageable across web sessions.
 
 ## Table of Contents
 
@@ -16,22 +16,22 @@
 
 ## Introduction
 
-`safe-storage` simplifies the process of storing encrypted data in either `localStorage` or `sessionStorage`. It uses IndexedDB to securely store encryption keys and ensures that all data stored is both encrypted and decrypted seamlessly in the background. This package is perfect for applications requiring sensitive data storage, adding an extra layer of security without the need for complex encryption management.
+`safe-encrypted-storage` simplifies the process of storing encrypted data in either `localStorage` or `sessionStorage`. It uses IndexedDB to securely store encryption keys and ensures that all data stored is both encrypted and decrypted seamlessly in the background. This package is perfect for applications requiring sensitive data storage, adding an extra layer of security without the need for complex encryption management.
 
 ## Installation
 
 You can install the package via npm:
 
 ```bash
-npm install safe-storage
+npm install safe-encrypted-storage
 ```
 
 ## Usage
 
-Here's an example of how to use `safe-storage`:
+Here's an example of how to use `safe-encrypted-storage`:
 
 ```javascript
-import { SafeStorage } from 'safe-storage';
+import { SafeStorage } from 'safe-encrypted-storage';
 
 (async () => {
   const mechanism = 'localStorage';  // Or 'sessionStorage'
@@ -76,7 +76,7 @@ Clears all data from the selected storage mechanism.
 
 ## Development
 
-To contribute to `safe-storage`, clone the repository and start adding new features or fixing issues.
+To contribute to `safe-encrypted-storage`, clone the repository and start adding new features or fixing issues.
 
 ### Scripts
 

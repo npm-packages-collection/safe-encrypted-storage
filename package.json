@@ -1,5 +1,5 @@
 {
-  "name": "@32teeth/safe-storage",
+  "name": "@npm-packages-collection/safe-encrypted-storage",
   "description": "An easy-to-use, encrypted web storage utility for securely storing and managing sensitive data in localStorage and sessionStorage.",
   "author": "Eugene Yevhen Andruszczenko <eugene.andruszczenko@gmail.com>",
   "contributors": [
@@ -7,12 +7,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/32teeth/safe-storage.git"
+    "url": "git+https://github.com/npm-packages-collection/safe-encrypted-storage.git"
   },
   "license": "MIT",
   "version": "0.1.5",
   "keywords": [
-    "safe-storage",
+    "safe-encrypted-storage",
     "encryption",
     "localStorage",
     "sessionStorage",
@@ -48,9 +48,9 @@
     "sinon": "^19.0.2"
   },
   "bugs": {
-    "url": "https://github.com/32teeth/safe-storage/issues"
+    "url": "https://github.com/npm-packages-collection/safe-encrypted-storage/issues"
   },
-  "homepage": "https://github.com/32teeth/safe-storage#readme",
+  "homepage": "https://github.com/npm-packages-collection/safe-encrypted-storage#readme",
   "directories": {
     "test": "test"
   }
